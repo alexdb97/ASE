@@ -10,5 +10,5 @@ class FooCalculator:
 
 f = FooCalculator()
 print(f.sum(3,5))
-print(f.divide(7,-2))
+print(f.divide(8,2))
 

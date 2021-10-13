@@ -17,8 +17,11 @@ def divide(m,n):
         raise Exception("No zero division")
     count = 0
     sign = 1
-    if(not(m<0 ^ n<0)):
+    
+
+    if((m<0)^(n<0)):
         sign = -1
+    print((m<0^n<0))
 
     m = abs(m)
     n = abs(n)
